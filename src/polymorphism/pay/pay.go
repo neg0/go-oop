@@ -2,30 +2,26 @@ package pay
 
 import "github.com/neg0/go-oop/polymorphism/payment"
 
-type PaymentOptions interface {
-	ProcessPayment(float32) bool
-}
-
 type Pay struct{}
 
-var option PaymentOptions
+var option payment.Options
 
-func (pp *Pay) WithDebitCard(amount float32) {
+func (pp *Pay) WithDebitCard(amount float32) string {
 	option = &payment.DebitCard{}
-	option.ProcessPayment(amount)
+	return option.ProcessPayment(amount)
 }
 
-func (pp *Pay) WithCreditCard(amount float32) {
+func (pp *Pay) WithCreditCard(amount float32) string {
 	option = &payment.CreditCard{}
-	option.ProcessPayment(amount)
+	return option.ProcessPayment(amount)
 }
 
-func (pp *Pay) WithCash(amount float32) {
+func (pp *Pay) WithCash(amount float32) string {
 	option = &payment.Cash{}
-	option.ProcessPayment(amount)
+	return option.ProcessPayment(amount)
 }
 
-func (pp *Pay) WithCryptoCurrency(amount float32) {
+func (pp *Pay) WithCryptoCurrency(amount float32) string {
 	option = &payment.CryptoCurrency{}
-	option.ProcessPayment(amount)
+	return option.ProcessPayment(amount)
 }

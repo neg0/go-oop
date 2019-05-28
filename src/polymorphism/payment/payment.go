@@ -7,6 +7,10 @@ type DebitCard struct{}
 type Cash struct{}
 type CryptoCurrency struct{}
 
+type Options interface {
+	ProcessPayment(amount float32) string
+}
+
 func (d *DebitCard) ProcessPayment(amount float32) string {
 	return fmt.Sprintf("Paying with Debitcard for amount of: %f\n", amount)
 }
