@@ -15,7 +15,7 @@ func main() {
 	cash := paymentMethod.WithCash(10)
 	fmt.Println(cash)
 
-	cc := paymentMethod.WithCreditCard(120.95)
+	cc := paymentMethod.WithCreditCard(20.95)
 	fmt.Println(cc)
 
 	dc := paymentMethod.WithDebitCard(201.23)
