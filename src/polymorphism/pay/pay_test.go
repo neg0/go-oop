@@ -13,18 +13,18 @@ func init() {
 	sut = new(pay.Pay)
 }
 
-func TestPay_WithCash(t *testing.T) {
+func TestPay_PayWithCash(t *testing.T) {
 	assert.Contains(t, sut.WithCash(10), "Cash")
 }
 
-func TestPay_WithCreditCard(t *testing.T) {
+func TestPay_PayWithCreditCard(t *testing.T) {
 	assert.Contains(t, sut.WithCreditCard(10), "Creditcard")
 }
 
-func TestPay_WithDebitCard(t *testing.T) {
+func TestPay_PayWithDebitCard(t *testing.T) {
 	assert.Contains(t, sut.WithDebitCard(10), "Debitcard")
 }
 
-func TestPay_WithCryptoCurrency(t *testing.T) {
+func TestPay_PayWithCryptoCurrency(t *testing.T) {
 	assert.Contains(t, sut.WithCryptoCurrency(10), "Crypto")
 }
