@@ -7,21 +7,21 @@ type Pay struct{}
 var option payment.Options
 
 func (pp *Pay) WithDebitCard(amount float32) string {
-	option = &payment.DebitCard{}
+	option = new(payment.DebitCard)
 	return option.ProcessPayment(amount)
 }
 
 func (pp *Pay) WithCreditCard(amount float32) string {
-	option = &payment.CreditCard{}
+	option = new(payment.CreditCard)
 	return option.ProcessPayment(amount)
 }
 
 func (pp *Pay) WithCash(amount float32) string {
-	option = &payment.Cash{}
+	option = new(payment.Cash)
 	return option.ProcessPayment(amount)
 }
 
 func (pp *Pay) WithCryptoCurrency(amount float32) string {
-	option = &payment.CryptoCurrency{}
+	option = new(payment.CryptoCurrency)
 	return option.ProcessPayment(amount)
 }

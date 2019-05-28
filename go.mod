@@ -3,6 +3,7 @@ module github.com/neg0/go-oop
 require (
 	github.com/neg0/go-oop/polymorphism/pay v0.0.0
 	github.com/neg0/go-oop/polymorphism/payment v0.0.0 // indirect
+	github.com/stretchr/testify v1.3.0 // indirect
 )
 
 replace (
