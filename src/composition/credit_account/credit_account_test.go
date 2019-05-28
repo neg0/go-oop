@@ -6,6 +6,7 @@ import (
 	"github.com/neg0/go-oop/composition/credit_account"
 	"github.com/stretchr/testify/assert"
 )
+
 var sut *credit_account.CreditAccount
 
 func init() {

@@ -2,7 +2,7 @@ package credit_account
 
 import "github.com/neg0/go-oop/composition/account"
 
-type CreditAccount struct{
+type CreditAccount struct {
 	account.Account
 }
 

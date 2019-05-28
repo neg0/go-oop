@@ -1,7 +1,6 @@
 module github.com/neg0/go-oop
 
 require (
-    github.com/stretchr/testify/assert latest
 	github.com/neg0/go-oop/composition/account v0.0.0
 	github.com/neg0/go-oop/composition/credit_account v0.0.0
 	github.com/neg0/go-oop/polymorphism/pay v0.0.0
