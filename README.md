@@ -31,4 +31,4 @@ __Shutdown the Golang container:__
 
 ### IDE Cheat sheet
 In order for IDE to detect the location based on replace path in `go.mod`. Please create a symlink like command below:
-`ln -s ln -s ~/dev/go/oop/src ~/dev/go/src/github.com/neg0/go-oop`
+`ln -s ln -s YOUR-GO-PATH-DIRECTORY/go-oop/src YOUR-GO-PATH-DIRECTORY/src/github.com/neg0/go-oop`
