@@ -13,4 +13,6 @@ RUN mkdir -p /usr/local/golang-oop \
 COPY docker/git/.gitconfig /root
 COPY docker/git/pre-commit /usr/local/golang-oop/.git/hooks
 
+ENV GO111MODULE on
+
 WORKDIR /usr/local/golang-oop
