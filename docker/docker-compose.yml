@@ -1,0 +1,19 @@
+version: "2.4"
+
+services:
+  golang:
+    image: goland-oop-concepts:1.2
+    container_name: golang-oop-concepts
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+    tty: true
+    restart: on-failure
+    volumes:
+      - ./../:/usr/local/golang-oop
+    networks:
+      - golang-oop-concepts-network
+
+networks:
+  golang-oop-concepts-network:
+    driver: bridge

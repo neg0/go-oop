@@ -1,0 +1,13 @@
+[user]
+        name = Hadi Tajallaei
+        email = ruiner.zer0@gmail.com
+[alias]
+        co = checkout
+        st = status
+        ci = commit
+        br = branch
+        pl = pull
+        ps = push
+
+[url "git@github.com:"]
+        insteadOf = https://github.com/
