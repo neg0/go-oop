@@ -1,6 +1,6 @@
 package pay
 
-import "github.com/neg0/go-oop/polymorphism/payment"
+import "github.com/neg0/go-oop/src/polymorphism/payment"
 
 type Pay struct{}
 

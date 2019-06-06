@@ -3,7 +3,7 @@ package credit_account
 import (
 	"testing"
 
-	"github.com/neg0/go-oop/composition/credit_account"
+	"github.com/neg0/go-oop/src/composition/credit_account"
 	"github.com/stretchr/testify/assert"
 )
 

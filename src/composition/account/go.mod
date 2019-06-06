@@ -1,4 +1,4 @@
-module github.com/neg0/go-oop/composition/account
+module github.com/neg0/go-oop/src/composition/account
 
 go 1.12
 

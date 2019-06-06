@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/neg0/go-oop/polymorphism/pay"
+	"github.com/neg0/go-oop/src/polymorphism/pay"
 )
 
 var paymentMethod *pay.Pay

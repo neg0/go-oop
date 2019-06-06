@@ -3,7 +3,7 @@ package account
 import (
 	"testing"
 
-	"github.com/neg0/go-oop/composition/account"
+	"github.com/neg0/go-oop/src/composition/account"
 	"github.com/stretchr/testify/assert"
 )
 

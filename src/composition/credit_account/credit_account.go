@@ -1,6 +1,6 @@
 package credit_account
 
-import "github.com/neg0/go-oop/composition/account"
+import "github.com/neg0/go-oop/src/composition/account"
 
 type CreditAccount struct {
 	account.Account

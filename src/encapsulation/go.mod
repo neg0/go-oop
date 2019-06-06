@@ -1,0 +1,1 @@
+module github.com/neg0/go-oop/src/encapsulation

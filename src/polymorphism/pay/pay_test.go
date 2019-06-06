@@ -3,7 +3,7 @@ package pay
 import (
 	"testing"
 
-	"github.com/neg0/go-oop/polymorphism/pay"
+	"github.com/neg0/go-oop/src/polymorphism/pay"
 	"github.com/stretchr/testify/assert"
 )
 
